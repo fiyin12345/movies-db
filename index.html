@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            First Project
+        </title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+        <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css" />
+    </head>
+    <body>
+     <h1 class="text-center"><i class="fas fa-video"></i> Movies Database</h1>
+     <form>
+        <div class="text-center form-group">
+            <h4>Title</h4>
+            <input class="form-control">
+        </div>
+        <div class="text-center form-group">
+            <h4>Director</h4>
+            <input class="form-control">
+        </div>
+        <div class="text-center form-group">
+            <h4>Year</h4>
+            <input class="form-control">
+        </div> 
+        <input type="submit" value="Add Movie" class="btn btn-primary" id="addmovie">
+     </form>
+     <table class="table table-striped mt-5">
+        <thead>
+            <tr>
+              <th>Title</th>
+              <th>Director</th>
+              <th>Year</th>
+            </tr>
+        </thead>
+        <tbody id="tablebody"></tbody>
+     </table>
+    </body>
+</html>
