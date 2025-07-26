@@ -4,25 +4,24 @@
         <title>
             First Project
         </title>
-        <script src="script.js"></script>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
         <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css" />
     </head>
     <body>
      <h1 class="text-center"><i class="fas fa-video"></i> Movies Database</h1>
-     <form>
+     <form id="f">
         <div class="text-center form-group">
             <h4>Title</h4>
-            <input class="form-control">
+            <input class="form-control" id="t">
         </div>
         <div class="text-center form-group">
             <h4>Director</h4>
-            <input class="form-control">
+            <input class="form-control" id="d">
         </div>
         <div class="text-center form-group">
             <h4>Year</h4>
-            <input class="form-control">
+            <input class="form-control" id="y">
         </div> 
         <input type="submit" value="Add Movie" class="btn btn-primary" id="addmovie">
      </form>
@@ -36,5 +35,6 @@
         </thead>
         <tbody id="tablebody"></tbody>
      </table>
-    </body>
+    <script src="script.js"></script>
+</body>
 </html>
